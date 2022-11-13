@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C53B36E929214368005E0D82 /* LivreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B36E829214368005E0D82 /* LivreApp.swift */; };
+		C53B36E929214368005E0D82 /* BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B36E829214368005E0D82 /* BookApp.swift */; };
 		C53B36EB29214368005E0D82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B36EA29214368005E0D82 /* ContentView.swift */; };
 		C53B36ED29214369005E0D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53B36EC29214369005E0D82 /* Assets.xcassets */; };
 		C53B36F029214369005E0D82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53B36EF29214369005E0D82 /* Preview Assets.xcassets */; };
+		C53B36F729214383005E0D82 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B36F629214383005E0D82 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C53B36E529214368005E0D82 /* Livre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Livre.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C53B36E829214368005E0D82 /* LivreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivreApp.swift; sourceTree = "<group>"; };
+		C53B36E529214368005E0D82 /* Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Book.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53B36E829214368005E0D82 /* BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookApp.swift; sourceTree = "<group>"; };
 		C53B36EA29214368005E0D82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C53B36EC29214369005E0D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C53B36EF29214369005E0D82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C53B36F629214383005E0D82 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,7 @@
 		C53B36E629214368005E0D82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C53B36E529214368005E0D82 /* Livre.app */,
+				C53B36E529214368005E0D82 /* Book.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +53,9 @@
 		C53B36E729214368005E0D82 /* Livre */ = {
 			isa = PBXGroup;
 			children = (
-				C53B36E829214368005E0D82 /* LivreApp.swift */,
+				C53B36E829214368005E0D82 /* BookApp.swift */,
 				C53B36EA29214368005E0D82 /* ContentView.swift */,
+				C53B36F629214383005E0D82 /* Model.swift */,
 				C53B36EC29214369005E0D82 /* Assets.xcassets */,
 				C53B36EE29214369005E0D82 /* Preview Content */,
 			);
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C53B36E429214368005E0D82 /* Livre */ = {
+		C53B36E429214368005E0D82 /* Book */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C53B36F329214369005E0D82 /* Build configuration list for PBXNativeTarget "Livre" */;
+			buildConfigurationList = C53B36F329214369005E0D82 /* Build configuration list for PBXNativeTarget "Book" */;
 			buildPhases = (
 				C53B36E129214368005E0D82 /* Sources */,
 				C53B36E229214368005E0D82 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Livre;
+			name = Book;
 			productName = Livre;
-			productReference = C53B36E529214368005E0D82 /* Livre.app */;
+			productReference = C53B36E529214368005E0D82 /* Book.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C53B36E029214368005E0D82 /* Build configuration list for PBXProject "Livre" */;
+			buildConfigurationList = C53B36E029214368005E0D82 /* Build configuration list for PBXProject "Book" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C53B36E429214368005E0D82 /* Livre */,
+				C53B36E429214368005E0D82 /* Book */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53B36F729214383005E0D82 /* Model.swift in Sources */,
 				C53B36EB29214368005E0D82 /* ContentView.swift in Sources */,
-				C53B36E929214368005E0D82 /* LivreApp.swift in Sources */,
+				C53B36E929214368005E0D82 /* BookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = 8H2K4HJJSS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = 8H2K4HJJSS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C53B36E029214368005E0D82 /* Build configuration list for PBXProject "Livre" */ = {
+		C53B36E029214368005E0D82 /* Build configuration list for PBXProject "Book" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C53B36F129214369005E0D82 /* Debug */,
@@ -329,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C53B36F329214369005E0D82 /* Build configuration list for PBXNativeTarget "Livre" */ = {
+		C53B36F329214369005E0D82 /* Build configuration list for PBXNativeTarget "Book" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C53B36F429214369005E0D82 /* Debug */,

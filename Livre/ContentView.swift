@@ -7,13 +7,15 @@
 
 import SwiftUI
 
+let book1 = Book(title: "Las Vegas Parano", author: "Hunter S Thompson", editor: "Rivage Noir", year: 2006, numberPages: 212, loan: false, nameLoan: "Jeanne")
+
 struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text(book1.getInfo())
         }
         .padding()
     }
