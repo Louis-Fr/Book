@@ -33,14 +33,14 @@ class Book {
     }
     
     func getInfo() -> String {
-        return "The book is " + title + " by " + author + " the editor is \(editor) sorted in \(year) and contains \(numberPages) pages"
+        return "The book is \(title) by \(author) the editor is \(editor) sorted in \(year) and contains \(numberPages) pages"
     }
     
     func avaible() -> String {
         if (loan) {
-            return "The book " + title + " is avaible"
+            return "The book " + title + " is not avaible"
         } else {
-            return "The book" + title + " is not avaible"
+            return "The book" + title + " is avaible"
         }
     }
     
@@ -67,3 +67,4 @@ class Book {
     
    
 }
+
